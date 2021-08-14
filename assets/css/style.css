@@ -333,7 +333,7 @@ footer{
         align-items: center;
     }
     .container h1{
-        font-size: 30px;
+        font-size: 40px;
         margin: 10px;
     }
     
@@ -345,8 +345,8 @@ footer{
 
     .menu{
         position: fixed;
-        top: 10px;
-        left: 5px;
+        top: 40px;
+        left: -10px;
         width: 50px;
 
     }
