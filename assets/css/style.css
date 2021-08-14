@@ -11,6 +11,7 @@ background: linear-gradient(180deg, rgba(48,48,54,1) 0%, rgba(108,99,102,1) 32%,
 }
 
 header{
+    display: flex;
     height: 130px;
     background-color: #000;
 }
@@ -317,4 +318,84 @@ footer{
     color: #FFF;
     -webkit-text-stroke: 1px #000
 
+}
+
+@media (max-width: 600px) {
+
+    .foto_1, .foto_3{
+        display: none;
+    }
+
+    .titulo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .container h1{
+        font-size: 30px;
+        margin: 10px;
+    }
+    
+    .container h2{
+        text-align: center;
+        font-size: 25px;
+
+    }
+
+    .menu{
+        position: fixed;
+        top: 10px;
+        left: 5px;
+        width: 50px;
+
+    }
+
+    #banner .imagem{
+        
+        width: 290px;
+        height: 380px;
+
+    }
+
+    .imagem img{
+        display: block;
+        margin: 5px 2px 5px 2px;
+        width: 280px;
+    }
+
+    .imagem h3{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    #timeline .year{
+        width: 80px;
+    }
+
+    #timeline .line{
+        width: 350px;
+    }
+
+    #gallery .foto_2{
+        width: 250px;
+        height: 150px;
+        margin-left: 0px;
+    }
+
+    #more_info .container div{
+
+        font-size: 30px;
+        text-align: center;
+
+    }
+
+    .betweenSections{
+        height: 300px;
+
+    }
+
+
+    
+    
 }
