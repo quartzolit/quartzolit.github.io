@@ -251,6 +251,7 @@ ul li:hover, ul li a:hover{
 }
 
 .buttons{
+    display: flex;
     font-size: 20px;
     font-weight: bold;
     margin-top: 10px;
@@ -395,6 +396,10 @@ footer{
     .betweenSections{
         height: 300px;
 
+    }
+
+    .buttons{
+        flex-direction: row;
     }
 
 
