@@ -12,7 +12,7 @@ background: linear-gradient(180deg, rgba(48,48,54,1) 0%, rgba(108,99,102,1) 32%,
 
 header{
     display: flex;
-    height: 130px;
+    height: 150px;
     background-color: #000;
     justify-content: center;
 }
@@ -299,6 +299,7 @@ footer{
     height: 20px;
     background-color: #000;
     color: #FFF;
+    margin-left: 5px;
 }
 
 .betweenSections{
